@@ -1,0 +1,135 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply Exo 2 font */
+body {
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f3f3;
+}
+
+/* Header */
+header {
+    background-color: #f44386; /* Pink color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Home Section */
+.home-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.home-section h1 {
+    color: #f44386;
+    font-size: 36px;
+}
+
+.home-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Essays Section */
+.essays-section {
+    padding: 40px 20px;
+    background-color: #fce4ec; /* Light pink */
+    text-align: center;
+}
+
+.essays-section h2 {
+    font-size: 32px;
+    color: #f44386;
+}
+
+.essay {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.essay:hover {
+    transform: scale(1.05);
+}
+
+.essay h3 {
+    font-size: 24px;
+    color: #f44386;
+    margin-bottom: 10px;
+}
+
+.essay p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.read-more {
+    color: #f44386;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    color: #f44386;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #f44386;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
